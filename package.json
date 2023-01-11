@@ -1,14 +1,12 @@
 {
-  "name": "cypress-cucumber-Salcobrand",
+  "name": "cypress-cucumber",
   "version": "2.1.0",
-  "description": "Prueba concepto de automation para los portales de Salcobrand",
+  "description": "Prueba concepto de automation",
   "main": "index.js",
   "scripts": {
     "cypress:runner": "cypress open",
     "cypress:execution": "cypress run",
     "cypress:execution-tags": "cypress run --env tags=@API"
-
-    
   },
   "keywords": [
     "cypress"
@@ -18,8 +16,9 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
-    "cypress": "^10.9.0",
+    "cypress": "^10.11.0",
     "esbuild": "^0.15.10",
-    "multiple-cucumber-html-reporter": "^3.0.1"
+    "multiple-cucumber-html-reporter": "^3.0.1",
+    "playwright-webkit": "^1.28.1"
   }
 }

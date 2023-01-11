@@ -37,5 +37,6 @@ Hay que estar parado en la consola dentro de la carpeta donde se encuentra el pr
               
 ## Authors
 
-* **Juan Pablo Pisano** - *Initial work & Contributor*
-juan.pisano@globant.com
+* **Hector Matias Martin** - *Initial work & Contributor*
+hector.martin@globant.com
+matias.martin89@gmail.com
