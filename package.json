@@ -1,14 +1,12 @@
 {
-  "name": "cypress-cucumber-Salcobrand",
+  "name": "hw-automation-api",
   "version": "2.1.0",
-  "description": "Prueba concepto de automation para los portales de Salcobrand",
+  "description": "Prueba concepto de API Test Automation para GDM Seeds",
   "main": "index.js",
   "scripts": {
     "cypress:runner": "cypress open",
     "cypress:execution": "cypress run",
     "cypress:execution-tags": "cypress run --env tags=@API"
-
-    
   },
   "keywords": [
     "cypress"
@@ -18,8 +16,15 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
-    "cypress": "^10.9.0",
+    "cypress": "^12.3.0",
     "esbuild": "^0.15.10",
     "multiple-cucumber-html-reporter": "^3.0.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.0",
+    "supertest": "^6.3.3"
   }
 }
