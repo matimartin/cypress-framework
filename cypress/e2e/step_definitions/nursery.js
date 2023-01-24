@@ -19,7 +19,9 @@ When('I send a GET request to the {string} endpoint', (string) => {
 });
 
 Then('the response should have a status code of {int}', (statusCode) => {
-    cy.get('@response').its('status').should('eq', statusCode);
+    cy.get(response)
+    .its('status')
+    .should('eq', statusCode);
 });
 
 /** 
